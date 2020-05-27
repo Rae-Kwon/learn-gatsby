@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Header from '../components/Header'
 
-export default function contact() {
+export default function Contact() {
     return (
         <div>
             <Link to="/">Home</Link>

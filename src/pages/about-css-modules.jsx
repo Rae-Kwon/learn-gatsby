@@ -2,6 +2,7 @@ import React from "react"
 
 import styles from "./about-css-modules.module.css"
 import Container from "../components/Container"
+import Layout from "../components/Layout"
 
 function User(props) {
   return (
@@ -18,19 +19,21 @@ function User(props) {
 export default function AboutCssModules() {
   console.log(styles)
   return (
-    <Container>
-      <h1>About CSS Modules</h1>
-      <p>CSS Modules are pretty cool</p>
-      <User
-        username="Jane Doe"
-        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
-        excerpt="I'm Jane Doe. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-      />
-      <User
-        username="Bob Smith"
-        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
-        excerpt="I'm Bob Smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-      />
-    </Container>
+    <Layout>
+      <Container>
+        <h1>About CSS Modules</h1>
+        <p>CSS Modules are pretty cool</p>
+        <User
+          username="Jane Doe"
+          avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
+          excerpt="I'm Jane Doe. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        />
+        <User
+          username="Bob Smith"
+          avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
+          excerpt="I'm Bob Smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        />
+      </Container>
+    </Layout>
   )
 }

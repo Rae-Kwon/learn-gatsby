@@ -1,10 +1,29 @@
-import React from 'react'
+import React from "react"
+import { Link } from "gatsby"
+
+function ListLink(props) {
+  return (
+    <li style={{ display: `inline-block`, marginRight: `1rem` }}>
+      <Link to={props.to}>{props.children}</Link>
+    </li>
+  )
+}
 
 export default function Layout({ children }) {
-    return (
-        <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
-            <h3>My Gatsby Test Site</h3>
-            {children}
-        </div>
-    )
+  return (
+    <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
+      <header style={{ marginBottom: `1.5rem` }}>
+        <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
+          <h3 style={{ display: `inline` }}>My Gatsby Test Site</h3>
+        </Link>
+        <ul style={{ listStyle: `none`, float: `right` }}>
+          <ListLink to="/">Home</ListLink>
+          <ListLink to="/about">About</ListLink>
+          <ListLink to="/about-css-modules">About CSS Modules</ListLink>
+          <ListLink to="/contact">Contact</ListLink>
+        </ul>
+      </header>
+      {children}
+    </div>
+  )
 }

@@ -9,7 +9,7 @@ If you also want to learn Gatsby, follow this [link](https://www.gatsbyjs.org/tu
 - [x] Get to know Gatsby Building Blocks
 - [x] Introduction to Styling in Gatsby
 - [x] Creating Nested Layout Components
-- [ ] Data in Gatsby
+- [x] Data in Gatsby
 - [ ] Source Plugins and Rendering Queried Data
 - [ ] Transformer Plugins
 - [ ] Programmatically Create Pages from Data

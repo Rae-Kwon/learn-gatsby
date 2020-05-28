@@ -1,13 +1,13 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import Header from '../components/Header'
+import React from "react"
+import Layout from "../components/Layout"
 
 export default function Contact() {
-    return (
-        <div>
-            <Link to="/">Home</Link>
-            <Header headerText="Contact" />
-            <p>Send a message to me!!</p>
-        </div>
-    )
+  return (
+    <Layout>
+      <h1>I'd love to talk! Email me at the address below</h1>
+      <p>
+        <a href="mailto:me@example.com">me@example.com</a>
+      </p>
+    </Layout>
+  )
 }

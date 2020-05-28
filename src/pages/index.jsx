@@ -1,13 +1,16 @@
 import React from "react"
-import { Link } from 'gatsby'
+import Layout from "../components/layout"
 
 export default function Home() {
   return (
-    <div style={{ color: `purple` }}>
-      <Link to="/contact/">Contact</Link>
-      <h1>Hello Gatsby!</h1>
-      <p>The start of Gatsby development</p>
-      <img src="https://images.unsplash.com/photo-1590493139659-9601ac3ba0bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Sunset"/>
-    </div>
+    <Layout>
+      <h1>Amazing Pandas Eating Things</h1>
+      <div>
+        <img
+          src="https://2.bp.blogspot.com/-BMP2l6Hwvp4/TiAxeGx4CTI/AAAAAAAAD_M/XlC_mY3SoEw/s1600/panda-group-eating-bamboo.jpg"
+          alt="Group of pandas eating bamboo"
+        />
+      </div>
+    </Layout>
   )
 }

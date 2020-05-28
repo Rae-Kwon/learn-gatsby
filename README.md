@@ -7,7 +7,7 @@ If you also want to learn Gatsby, follow this [link](https://www.gatsbyjs.org/tu
 ## Current progress
 - [x] Setup Dev Enviroment
 - [x] Get to know Gatsby Building Blocks
-- [ ] Introduction to Styling in Gatsby
+- [x] Introduction to Styling in Gatsby
 - [ ] Creating Nested Layout Components
 - [ ] Data in Gatsby
 - [ ] Source Plugins and Rendering Queried Data

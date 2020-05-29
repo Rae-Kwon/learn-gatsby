@@ -11,6 +11,6 @@ If you also want to learn Gatsby, follow this [link](https://www.gatsbyjs.org/tu
 - [x] Creating Nested Layout Components
 - [x] Data in Gatsby
 - [x] Source Plugins and Rendering Queried Data
-- [ ] Transformer Plugins
+- [x] Transformer Plugins
 - [ ] Programmatically Create Pages from Data
 - [ ] Preparing a Site to Go Live
